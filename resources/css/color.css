@@ -1,0 +1,58 @@
+:root 
+{
+  --radius: 1rem;
+  --onyx: #0f0f0f;
+  --gold: #c8a96b;
+  --gold-dark: #b18a4f;
+  --gold-soft: #e5d3b3;
+  --nude: #f5e6da;
+  --nude-soft: #fcf7f2;
+  --white: #ffffff;
+  --off-white: #f9f9f9;
+  --background: #fcf7f2;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #c8a96b;
+  --primary-foreground: #0f0f0f;
+  --secondary: #f5e6da;
+  --secondary-foreground: #1a1a1a;
+  --accent: #e5d3b3;
+  --accent-foreground: #0f0f0f;
+  --muted: #f2ebe5;
+  --muted-foreground: #7a6f66;
+  --border: #eadfce;
+  --input: #eadfce;
+  --ring: #c8a96b;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --shadow-gold: 0 10px 30px rgba(200, 169, 107, 0.25);
+  --gradient-gold: linear-gradient( 135deg, #f2deb2 0%,  #c8a96b 50%,  #b18a4f 100%);
+  --gradient-dark:linear-gradient( 135deg,  #0f0f0f 0%,  #1a1a1a 100%);
+  --gradient-nude:linear-gradient( 135deg, #fcf7f2 0%,  #f5e6da 100% );
+}
+
+
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+body 
+{
+  font-family: "Poppins", sans-serif;
+  background: var(--background);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
