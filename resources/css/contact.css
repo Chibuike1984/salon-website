@@ -1,0 +1,252 @@
+.contact
+{
+  min-height: 60vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("../images/about-salon.jpg") center/cover no-repeat;
+}
+
+.contact::before
+{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:linear-gradient( 135deg, rgba(200, 169, 107, 0.18), rgba(0,0,0,0.3));
+  z-index: 1;
+}
+
+.contact-overlay
+{
+  position: absolute;
+  inset: 0;
+  background:linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.45));
+  z-index: 2;
+}
+
+.contact-container
+{
+  position: relative;
+  z-index: 3;
+  max-width: 1300px;
+  margin: auto;
+  min-height: 60vh;
+  padding: 7rem 5% 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-content
+{
+  max-width: 750px;
+}
+
+.contact-subtitle
+{
+  color: var(--gold);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.contacts-title
+{
+  font-size:3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: var(--white);
+  text-align: left;
+}
+
+.contacts-title span
+{
+  color: var(--gold);
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+
+.contact-description
+{
+  max-width: 650px;
+  text-align: left;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.get-in-touch
+{
+  padding: 6rem 5%;
+  background: var(--background);
+}
+
+.get-in-touch-container
+{
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.contact-tag
+{
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.contact-title
+{
+  font-size:2.5rem;
+  line-height: 1.1;
+  color: var(--onyx);
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+
+.contact-title span
+{
+  color: var(--gold);
+}
+
+.contact-cards
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-card
+{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s ease;
+}
+
+.contact-card:hover
+{
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-gold);
+}
+
+.contact-icon
+{
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  background: var(--nude-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 1.2rem;
+}
+
+.contact-info span
+{
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: var(--muted-foreground);
+  margin-bottom: 0.4rem;
+}
+
+.contact-info a,
+.contact-info p
+{
+  color: var(--foreground);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.socials
+{
+  margin-top: 2.5rem;
+}
+
+.socials span
+{
+  display: block;
+  color: var(--gold);
+  letter-spacing: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons
+{
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a
+{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--onyx);
+  background: var(--white);
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover
+{
+  background: var(--gradient-gold);
+  color: var(--white);
+  transform: translateY(-4px);
+}
+
+
+.map-wrapper
+{
+  width: 100%;
+  height: 100%;
+  max-height:600px;
+  min-height:600px;
+  overflow: hidden;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-gold);
+}
+
+.map-wrapper iframe
+{
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
